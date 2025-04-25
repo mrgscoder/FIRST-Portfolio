@@ -8,19 +8,16 @@ export const Contact = () => {
     email: "",
     message: "",
   });
-  const SERVICE_ID = "service_tsa5mx2"
-  const TEMPLATE_ID ="template_xe48ved"
-  const PUBLIC_KEY = "jUqMcQ3BXcGLCujro"
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        SERVICE_ID,
-        TEMPLATE_ID,
+        import.meta.env.SERVICE_ID,
+        import.meta.env.TEMPLATE_ID,
         e.target,
-        PUBLIC_KEY
+        import.meta.env.PUBLIC_KEY
       )
       .then((result) => {
         alert("Message Sent!");
