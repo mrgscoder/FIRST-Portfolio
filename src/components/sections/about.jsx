@@ -45,7 +45,7 @@ export const About = () => {
                     </h4>
                     <p>
                       Researched on Effects of Earthquake in Turkey(2023)
-                      and <span className="space-y-4 bg-gradient-to-r from-green-500 to-cyan-400 text-transparent">UNOCHA</span> helps to them.
+                      and <span className="text-l font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-400 bg-clip-text text-transparent text-center">UNOCHA's</span> help to them.
                     </p>
                   </div>
                 </div>
