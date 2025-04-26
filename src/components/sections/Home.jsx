@@ -8,14 +8,16 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-red-500 to-green-400 bg-clip-text text-transparent leading-right">
-            Hi, I'm a Bhnd Insan
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
+            Hi, I'm Gunat aka <span className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-red-500 to-green-400 bg-clip-text text-transparent leading-right">Restricto</span>
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            I’m someone who enjoys programming and is always curious to learn more,
+             especially about machine learning and AI.
+             I find it fascinating how a few lines of code can help a machine learn new things.
+             In my free time, I like to watch anime and play story-driven games, 
+             which helps me relax and get inspired outside of coding.
           </p>
           <div className="flex justify-center space-x-4">
             <a
